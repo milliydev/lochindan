@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nargizaga 💌</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="stage">
+
+  <section id="s1">
+    <p class="to">Nargizaga</p>
+    <button class="env" id="env" aria-label="Maktubni ochish">
+      <div class="env-body"></div>
+      <div class="env-flap"></div>
+      <div class="seal">💍</div>
+    </button>
+    <p class="hint">Maktubni ochish uchun bosing</p>
+  </section>
+
+  <section id="s2" class="hide">
+    <div class="letter">
+      <h1>Azizim Nargiza,</h1>
+      <p>Seni uchratgan kunimdan beri hayotim butunlay boshqacha. Qolgan umrimni ham faqat sen bilan o’tkazmoqchiman.</p>
+      <p class="q">Menga erga tegasanmi? 💍</p>
+      <p class="sign" style="margin:0 0 1.2rem">Lochinbek</p>
+      <div class="btns">
+        <button class="b b-main" data-yes>Ha</button>
+        <button class="b b-alt" data-yes>Albatta, ha!</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="s3" class="hide">
+    <div class="letter">
+      <h1>Eng baxtli kunim! 💞</h1>
+      <p>To’yimiz qaysi faslda bo’lsin? O’zing tanla:</p>
+      <div class="opts" id="opts">
+        <button class="opt" aria-pressed="false">🌸 Bahor</button>
+        <button class="opt" aria-pressed="false">☀️ Yoz</button>
+        <button class="opt" aria-pressed="false">🍂 Kuz</button>
+        <button class="opt" aria-pressed="false">❄️ Qish</button>
+      </div>
+      <button class="b b-main" id="done">Tanladim</button>
+    </div>
+  </section>
+
+  <section id="s4" class="hide">
+    <div class="letter">
+      <h1>Seni kutaman ✨</h1>
+      <p id="final"></p>
+      <p>Shu ekranni rasmga olib menga yubor, qolganini o’zim tashkil qilaman.</p>
+      <p class="sign">Seni sevuvchi Lochinbek</p>
+    </div>
+  </section>
+
+</main>
+<script src="script.js"></script>
+</body>
+</html>
